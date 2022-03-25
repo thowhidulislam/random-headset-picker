@@ -1,0 +1,74 @@
+[
+    {
+        "id": "623dfac46d563a373af9c4bc",
+        "price": "$94",
+        "image": "images/corsair hs70 pro wireless gaming headset.jpg",
+        "name": "Corsair HS70 Pro"
+    },
+    {
+        "id": "623dfac4928b65883f6132f4",
+        "price": "$101",
+        "image": "images/corsair virtuoso rgb wireless se gaming headset .jpg",
+        "name": "Corsair Virtuoso RGB Wireless"
+    },
+    {
+        "id": "623dfac4bd420fb2887fb8a4",
+        "price": "$50",
+        "image": "images/corsair void rgb elite wireless premium gaming headset.jpg",
+        "name": "Corsair Void RGB Elite"
+    },
+    {
+        "id": "623dfac447319dcc5b121b69",
+        "price": "$119",
+        "image": "images/hyperx cloud ii wireless - gaming headset .jpg",
+        "name": "Hyperx Cloud ii wireless"
+    },
+    {
+        "id": "623dfac41c382f0385da06b9",
+        "price": "$73",
+        "image": "images/hyperx cloud stinger core - wireless gaming headset.jpg",
+        "name": "Hyperx Cloud Stinger Core"
+    },
+    {
+        "id": "623dfac4d3b39a43efd8e938",
+        "price": "$105",
+        "image": "images/logitech g pro x gaming headset.jpg",
+        "name": "Logitech g pro"
+    },
+    {
+        "id": "623dfac4cc78ca197ee96b27",
+        "price": "$111",
+        "image": "images/razer barracuda x wireless multi-platform gaming and mobile headset.jpg",
+        "name": "Razer Barracuda"
+    },
+    {
+        "id": "623dfac409cca97ff7707304",
+        "price": "$64",
+        "image": "images/razer blackshark v2 pro wireless headset.jpg",
+        "name": "Razer Blackshark v2 Pro"
+    },
+    {
+        "id": "623dfac446b1246ad0b00d85",
+        "price": "$76",
+        "image": "images/razer kraken gaming headset.jpg",
+        "name": "Razer Kraken Gaming Headset"
+    },
+    {
+        "id": "623dfac4ecb16777cbdc6234",
+        "price": "$44",
+        "image": "images/razer kraken ultimate rgb headset.jpg",
+        "name": "Razer Kraken Ultimate RGB"
+    },
+    {
+        "id": "623dfac41a4be3225b303a47",
+        "price": "$110",
+        "image": "images/razer kraken x ultralight headset.jpg",
+        "name": "Razer Kraken Ultralight"
+    },
+    {
+        "id": "623dfac41e57472302a3ec3e",
+        "price": "$59",
+        "image": "images/razer nari essential wireless 7.1 surround sound gaming headset.jpg",
+        "name": "Razer Nari"
+    }
+]

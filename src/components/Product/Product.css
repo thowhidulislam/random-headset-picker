@@ -1,12 +1,35 @@
 .product {
-    border: 1px solid red;
     background-color: #fff;
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
 }
 
 .product img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    margin: 5px 25px ;
+}
+
+.product-info {
     margin: 20px;
-    
-   
+}
+
+.product-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    margin: 0;
+}
+
+.product-info p {
+    margin-top: 0;
+}
+
+.select-button {
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
 }

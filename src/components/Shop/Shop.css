@@ -10,10 +10,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:30px;
+   
 }
 
 .cart-container {
     background-color: #99d8c9;
     margin-left: 30px;
     border-radius: 10px;
+    height: 500px;
+}
+
+.article-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: 30px;
+    margin-left: 30px;
 }

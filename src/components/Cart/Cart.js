@@ -2,15 +2,7 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const { cart } = props
-
-
-    // let productName;
-    // let productLists = [];
-    // for (const product of cart) {
-    //     productName = product.name
-    //     productLists = [...productLists, productName]
-    // }
+    const { cart, getRandomProduct } = props
 
     return (
         <div className='cart'>
@@ -23,9 +15,8 @@ const Cart = (props) => {
                     <p>{product.name}</p>
                 </div>)
             }
-            {/* <p>{name}</p> */}
 
-            <button>CHOOSE 1 FOR ME</button> <br />
+            <button onClick={getRandomProduct}>CHOOSE 1 FOR ME</button> <br />
             <button>CHOOSE AGAIN</button>
         </div>
     );

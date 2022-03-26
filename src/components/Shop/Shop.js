@@ -7,6 +7,7 @@ import './Shop.css'
 const Shop = () => {
     const [products, setProducts] = useState([])
     const [cart, setCart] = useState([])
+    // const [randomPick, setRandomPick] = useState([])
     useEffect(() => {
         fetch('product.json')
             .then(res => res.json())
@@ -26,11 +27,8 @@ const Shop = () => {
         }
     }
 
-    const getRandomProduct = () => {
-        const randomProduct = Math.floor(Math.random() * cart.length)
-        console.log(randomProduct)
-    }
-    getRandomProduct()
+
+    // getRandomProduct()
 
     const chooseAgain = () => {
         setCart([])

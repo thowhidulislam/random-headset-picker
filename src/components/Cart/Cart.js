@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
+import RandomPick from '../RandomPick/RandomPick';
 import './Cart.css'
 
 const Cart = (props) => {
-    const { cart, getRandomProduct, chooseAgain } = props
+    const { cart, chooseAgain } = props
+
+    const [randomProduct, setRandomProduct] = useState([])
+    const getRandomProduct = () => {
+        const randomProductNumber = Math.floor(Math.random() * cart.length)
+        const newProduct = cart[randomProductNumber]
+        setRandomProduct(newProduct)
+    }
 
     return (
         <div className='cart'>
@@ -15,6 +23,7 @@ const Cart = (props) => {
                     <p>{product.name}</p>
                 </div>)
             }
+            <RandomPick randomProduct={randomProduct} key={randomProduct.id}></RandomPick>
 
             <button onClick={getRandomProduct}>CHOOSE 1 FOR ME</button> <br />
             <button onClick={chooseAgain}>CHOOSE AGAIN</button>

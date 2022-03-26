@@ -1,6 +1,6 @@
 .cart {
     position: sticky;
-    /* right: 0; */
+    top: 0;
     margin-left: 30px;
     margin-top: 0;
     border-radius: 10px;
@@ -12,17 +12,12 @@
 
 .added-product-container {
     display: flex;
-    align-items: center;
-    /* padding: 5px; */
-   
-
+    align-items: center; 
 }
+
 .cart-image-container {
     width: 50px;
-    /* border: 1px solid gray; */
-    /* border-radius: 100%; */
     margin: 10px;
-
 }
 
 .cart-image {

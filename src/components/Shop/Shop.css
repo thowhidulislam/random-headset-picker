@@ -17,7 +17,7 @@
     background-color: #99d8c9;
     margin-left: 30px;
     border-radius: 10px;
-    height: 500px;
+
 }
 
 .article-container {
@@ -25,4 +25,32 @@
     grid-template-columns: 1fr;
     margin-right: 30px;
     margin-left: 30px;
+}
+
+@media screen and (max-width: 575px) {
+    .shop-container {
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+    
+    .products-container {
+        grid-template-columns: 1fr;
+    }
+
+    .cart-container {
+        background-color: #99d8c9;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        border-radius: 10px;
+    
+    }
+
+    .article-container {
+        grid-template-columns: 1fr;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const { cart, getRandomProduct } = props
+    const { cart, getRandomProduct, chooseAgain } = props
 
     return (
         <div className='cart'>
@@ -17,7 +17,7 @@ const Cart = (props) => {
             }
 
             <button onClick={getRandomProduct}>CHOOSE 1 FOR ME</button> <br />
-            <button>CHOOSE AGAIN</button>
+            <button onClick={chooseAgain}>CHOOSE AGAIN</button>
         </div>
     );
 };

@@ -50,6 +50,7 @@
     margin-right: 5px;
 }
 
+/* Mobile version (max-width: 575px) */
 @media screen and (max-width: 575px) {
     .product img {
        display: block;

@@ -1,13 +1,15 @@
 .product {
     background-color: #fff;
     border-radius: 5px;
-    width: 300px;
+    /* width: 300px; */
     height: 450px;
+    position: relative;
+    overflow: hidden;
 }
 
 .product img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: 5px 25px ;
 }
 
@@ -28,8 +30,23 @@
     margin-top: 0;
 }
 
-.select-button {
-    width: 150px;
-    height: 30px;
-    margin-left: 20px;
+.cart-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    font-size: 15px;
+    background-color: #99d8c9;
+    cursor: pointer;
+}
+
+.cart-btn:hover {
+    background-color: cadetblue;
+}
+
+.cart-btn .cart-text {
+    margin-right: 5px;
 }

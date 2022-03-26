@@ -1,0 +1,32 @@
+.cart {
+    position: sticky;
+    /* right: 0; */
+    margin-left: 30px;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+.cart-title {
+    margin-top: 50px;
+}
+
+.added-product-container {
+    display: flex;
+    align-items: center;
+    /* padding: 5px; */
+   
+
+}
+.cart-image-container {
+    width: 50px;
+    /* border: 1px solid gray; */
+    /* border-radius: 100%; */
+    margin: 10px;
+
+}
+
+.cart-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
